@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luis Gomez | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio featuring experience, projects, interests, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Luis Gomez</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#interests">Interests</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </nav>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="sr-only">Open menu</span>
+          <span aria-hidden="true" class="nav-toggle-icon"></span>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobile-nav" hidden>
+        <div class="container mobile-nav-inner">
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#interests">Interests</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Seeking summer internships, open to full time, freelance, and tutoring</p>
+            <h1>
+              Banking analyst turned data scientist, from Banco de Mexico to Columbia.
+              <span class="hero-sub">Data and AI • Product minded • Collaborative</span>
+            </h1>
+            <p class="lede">
+              MS in Data Science candidate at Columbia University and former banking analyst at Banco de México,
+              focused on turning high volume, complex data into clear decisions through rigorous modeling, applied AI,
+              and analytics prepared for stakeholders.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View projects</a>
+              <a class="button" href="#contact">Contact me</a>
+            </div>
+
+            <ul class="hero-meta" aria-label="Quick facts">
+              <li><span class="meta-k">Location</span><span class="meta-v">New York</span></li>
+              <li><span class="meta-k">Focus</span><span class="meta-v">Data Science / Analytics / Software</span></li>
+              <li>
+                <span class="meta-k">GitHub</span
+                ><span class="meta-v"
+                  ><a href="https://github.com/luisgomezordoniez" target="_blank" rel="noreferrer"
+                    >@luisgomezordoniez</a
+                  ></span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Highlights">
+            <div class="card">
+              <h2 class="card-title">Highlights</h2>
+              <ul class="bullets">
+                <li>5+ years at Banco de Mexico delivering production quality analytics and regulatory reporting.</li>
+                <li>DSI Scholar at Columbia, building clinically grounded AI retrieval workflows for diabetes research.</li>
+                <li>Taught quantitative courses to 60+ students per class across multiple undergraduate programs.</li>
+              </ul>
+
+              <div class="card-actions">
+                <a class="link" href="./resume.pdf" target="_blank" rel="noreferrer">Resume (PDF)</a>
+                <a class="link" href="https://github.com/luisgomezordoniez" target="_blank" rel="noreferrer"
+                  >GitHub</a
+                >
+                <a class="link" href="https://www.linkedin.com/in/luisenriqueigomez/" target="_blank" rel="noreferrer"
+                  >LinkedIn</a
+                >
+              </div>
+              <p class="card-note">Resume available as PDF.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <header class="section-head">
+            <h2>Experience</h2>
+            <p>Professional experience across data science, finance analytics, and higher education.</p>
+          </header>
+
+          <div class="timeline">
+            <article class="item">
+              <div class="item-meta">
+                <p class="item-role">DSI Scholar: Defining the Pathway of Cardiometabolic Health Data after Weight Loss</p>
+                <p class="item-org">The Data Science Institute</p>
+                <p class="item-time">Jan 2026 to May 2026 • New York, US</p>
+              </div>
+              <ul class="bullets">
+                <li>
+                  Analyzed longitudinal clinical data to identify biomarkers of cardiometabolic improvement after
+                  gastric bypass surgery and connect findings to obesity, CVD, and Type 2 diabetes targets.
+                </li>
+                <li>
+                  Designed the end to end retrieval pipeline: PDF/table extraction, hybrid chunking, sentence transformer
+                  embeddings, and confidence scored retrieval with source diversity controls.
+                </li>
+                <li>Preparing this work for upcoming presentations and research collaboration.</li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-meta">
+                <p class="item-role">Information Analyst</p>
+                <p class="item-org">Banco de Mexico</p>
+                <p class="item-time">Jan 2020 to Aug 2025 • Mexico City, Mexico</p>
+              </div>
+              <ul class="bullets">
+                <li>
+                  Developed R-based statistical models for commercial and mortgage portfolio reporting on datasets above
+                  1M records/month, delivering 20+ version controlled outputs.
+                </li>
+                <li>
+                  Managed financial data preparation and validation for institutional releases, updated regulatory forms,
+                  and supported Basel III adaptation analysis.
+                </li>
+                <li>
+                  Modeled loan portfolio trends with SQL and R and produced R Markdown reports for senior committees and
+                  regulatory publications supporting strategic and compliance decisions.
+                </li>
+              </ul>
+            </article>
+
+            <article class="item">
+              <div class="item-meta">
+                <p class="item-role">Undergrad Professor | Undergrad Assistant Professor</p>
+                <p class="item-org">Universidad Nacional Autonoma de Mexico (UNAM)</p>
+                <p class="item-time">Aug 2018 to Dec 2024 • Mexico City, Mexico</p>
+              </div>
+              <ul class="bullets">
+                <li>
+                  Taught undergraduate Probability, Statistics, and Finance to cohorts averaging 60+ students in
+                  in person and online formats.
+                </li>
+                <li>
+                  Led Finance II and Risk Theory as Professor and supported Stochastic Processes, Probability I/II, and
+                  Risk Theory as Assistant Professor.
+                </li>
+                <li>
+                  Improved student quantitative skills by integrating R and Python into assignments and assessments.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <header class="section-head">
+            <h2>Education</h2>
+            <p>Academic training aligned with data science, statistics, and applied analytics.</p>
+          </header>
+
+          <div class="timeline">
+            <article class="item">
+              <div class="item-meta">
+                <p class="item-role">MS in Data Science (Candidate)</p>
+                <p class="item-org">Columbia University</p>
+                <p class="item-time">New York, US</p>
+              </div>
+              <ul class="bullets">
+                <li>Expected graduation: 2026.</li>
+                <li>Relevant coursework: Machine Learning, Deep Learning, Reinforcement Learning, Causal Inference.</li>
+                <li>DSI Scholar, working on clinically grounded evidence retrieval and biomarker-focused analysis.</li>
+              </ul>
+            </article>
+            <article class="item">
+              <div class="item-meta">
+                <p class="item-role">BS in Mathematics</p>
+                <p class="item-org">Universidad Nacional Autonoma de Mexico (UNAM)</p>
+                <p class="item-time">2017 to 2020 • Mexico City, Mexico</p>
+              </div>
+              <ul class="bullets">
+                <li>Rigorous training in analysis, probability, and mathematical modeling.</li>
+              </ul>
+            </article>
+            <article class="item">
+              <div class="item-meta">
+                <p class="item-role">BS in Actuarial Science</p>
+                <p class="item-org">Universidad Nacional Autonoma de Mexico (UNAM)</p>
+                <p class="item-time">2014 to 2018 • Mexico City, Mexico</p>
+              </div>
+              <ul class="bullets">
+                <li>Foundation in risk, insurance, finance, and applied statistics.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <header class="section-head">
+            <h2>Skills & Tech Stack</h2>
+            <p>Core tools I use to build models, pipelines, and analysis that drive decisions.</p>
+          </header>
+
+          <div class="chips" aria-label="Tech stack">
+            <span class="chip">Python</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">R</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Tableau</span>
+            <span class="chip">Data Analysis</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">NLP</span>
+            <span class="chip">LLMs</span>
+            <span class="chip">RAG</span>
+            <span class="chip">Statistics</span>
+            <span class="chip">Experimentation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <header class="section-head">
+            <h2>Projects</h2>
+            <p>Selected work from GitHub focused on analytics, modeling, and practical tooling.</p>
+          </header>
+
+          <div class="grid">
+            <article class="project">
+              <div class="project-top">
+                <h3>Clinical RAG Decision Support Tool</h3>
+                <div class="project-links">
+                  <span class="chip">RAG</span>
+                  <span class="chip">Llama 3 8B</span>
+                  <span class="chip">FAISS</span>
+                </div>
+              </div>
+              <p class="muted">
+                Clinical decision support tool that retrieves diabetes evidence from 91 research papers and surfaces
+                confidence scored answers with source diversity.
+              </p>
+              <ul class="bullets compact">
+                <li>Queried papers (LABS2, LookAHEAD, GRADE) using FAISS vector search.</li>
+                <li>Pipeline: PDF/table extraction, hybrid chunking, sentence transformer embeddings, retrieval.</li>
+                <li>Designed to help clinicians identify therapeutic targets after weight-loss interventions.</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>football soccer</h3>
+                <div class="project-links">
+                  <a class="link" href="https://luisgomezordoniez.github.io/football-soccer/" target="_blank" rel="noreferrer"
+                    >Live</a
+                  >
+                  <a class="link" href="https://github.com/luisgomezordoniez/football-soccer" target="_blank" rel="noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+              <p class="muted">
+                End to end analytics project on more than 20 years of English football data to explain competitive
+                dynamics, team performance patterns, and match level drivers of outcomes.
+              </p>
+              <ul class="bullets compact">
+                <li>Built with: JavaScript</li>
+                <li>Focus: longitudinal EDA, trend analysis, and competitive balance insights</li>
+                <li>Outcome: translated historical league data into decision ready sports intelligence</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>Poisson &amp; Football</h3>
+                <div class="project-links">
+                  <a class="link" href="https://luisgomezordoniez.github.io/poisson-football/" target="_blank" rel="noreferrer"
+                    >Live</a
+                  >
+                  <a class="link" href="https://github.com/luisgomezordoniez/poisson-football" target="_blank" rel="noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+              <p class="muted">
+                Bilingual (EN/ES) web app that implements five Poisson family statistical models for football score
+                prediction, computed client side, with match simulation, season tables, and model diagnostics.
+              </p>
+              <ul class="bullets compact">
+                <li>Models: Maher, Dixon-Coles (with time decay), bivariate Poisson, negative binomial.</li>
+                <li>Data pipeline from historical league CSVs; supports 10 European leagues.</li>
+                <li>Originally a UNAM thesis project (R Shiny); rebuilt with React and Vite.</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>penalty kicks</h3>
+                <div class="project-links">
+                  <a class="link" href="https://github.com/luisgomezordoniez/penalty-kicks" target="_blank" rel="noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+              <p class="muted">
+                Reinforcement learning analysis for penalty kick strategies in football.
+              </p>
+              <ul class="bullets compact">
+                <li>Built with: Python</li>
+                <li>Focus: RL experimentation and strategy modeling under uncertainty</li>
+                <li>Extracted strategy insights by comparing policies that maximize expected scoring probability.</li>
+                <li>Use case: decisions under uncertainty</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>bgg tools</h3>
+                <div class="project-links">
+                  <a class="link" href="https://bggtools.streamlit.app" target="_blank" rel="noreferrer">Live</a>
+                  <a class="link" href="https://github.com/luisgomezordoniez/bgg-tools" target="_blank" rel="noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+              <p class="muted">
+                Live Streamlit app and Python utilities for board game data workflows, focused on cleaning, transforming,
+                and analyzing structured datasets.
+              </p>
+              <ul class="bullets compact">
+                <li>Built with: Python</li>
+                <li>Focus: data wrangling and repeatable analysis helpers</li>
+                <li>Outcome: faster iteration for exploratory and reporting tasks</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="interests">
+        <div class="container">
+          <header class="section-head">
+            <h2>Interests</h2>
+            <p>Beyond work: topics I enjoy learning and building around.</p>
+          </header>
+
+          <div class="pill-grid" role="list" aria-label="Interests with descriptions">
+            <button class="pill interest-pill" type="button" data-description="Modeling match outcomes, team strategy, and competitive balance using historical data.">
+              Sports analytics
+            </button>
+            <button class="pill interest-pill" type="button" data-description="Improving strategic thinking and probabilistic decisions through competitive play.">
+              Chess
+            </button>
+            <button class="pill interest-pill" type="button" data-description="Understanding credit, portfolio, and systemic risk with practical statistical tools.">
+              Financial risk
+            </button>
+            <button class="pill interest-pill" type="button" data-description="Building NLP and LLM solutions for retrieval, summarization, and decision support.">
+              NLP &amp; LLMs
+            </button>
+            <button class="pill interest-pill" type="button" data-description="Avid player and community organizer, bringing people together through play, events, and shared strategy.">
+              Board games
+            </button>
+            <button class="pill interest-pill" type="button" data-description="Exploring where quantitative methods meet clinical and patient outcomes, math, data, and medicine in one space.">
+              Health tech
+            </button>
+          </div>
+          <p class="interest-description" id="interest-description">Hover, focus, or tap an interest to see more detail.</p>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container">
+          <header class="section-head">
+            <h2>Contact</h2>
+            <p>Recruiters and clients, send a note and I will reply within 1 to 2 business days.</p>
+          </header>
+
+          <div class="contact-grid">
+            <div class="contact-stack">
+              <div class="card contact-card">
+                <h3>Let’s talk</h3>
+                <ul class="contact-list">
+                  <li>
+                    <span class="contact-k">Email</span>
+                    <a href="mailto:luis.gomez.ordoniez@gmail.com">luis.gomez.ordoniez@gmail.com</a>
+                  </li>
+                  <li>
+                    <span class="contact-k">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/luisenriqueigomez/" target="_blank" rel="noreferrer"
+                      >/in/luisenriqueigomez</a
+                    >
+                  </li>
+                  <li>
+                    <span class="contact-k">GitHub</span>
+                    <a href="https://github.com/luisgomezordoniez" target="_blank" rel="noreferrer"
+                      >/luisgomezordoniez</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="card contact-card">
+                <h3>Services: Tutoring</h3>
+                <p class="muted">
+                  I offer one on one tutoring in statistics, probability, finance fundamentals, and data analysis with R/Python.
+                </p>
+                <ul class="bullets compact">
+                  <li>Personalized sessions for coursework, exams, and project support</li>
+                  <li>Online or in person (NYC), with structured weekly plans available</li>
+                </ul>
+              </div>
+            </div>
+
+            <form class="form card" id="contact-form" autocomplete="on" novalidate>
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required maxlength="100" placeholder="Jane" />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  maxlength="200"
+                  placeholder="jane@company.com"
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="type">I’m reaching out about</label>
+                <select id="type" name="type" required>
+                  <option value="" selected disabled>Select one</option>
+                  <option value="recruiting">Recruiting / Full‑time</option>
+                  <option value="contract">Contract / Freelance</option>
+                  <option value="collab">Collaboration</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  minlength="20"
+                  maxlength="3000"
+                  placeholder="Share role details, timeline, and what you’re looking for…"
+                ></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button class="button primary" type="submit">Send message</button>
+              </div>
+
+              <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Luis Gomez. Built with HTML/CSS.</p>
+        <a class="link" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
