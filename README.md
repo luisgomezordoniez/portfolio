@@ -1,42 +1,42 @@
-# Portfolio (static)
+# Luis Gomez — Portfolio
 
-This is a lightweight, responsive portfolio page with sections for **Experience**, **Projects**, **Interests**, and a **Contact** form.
+Personal portfolio for Luis Gomez Ordonez, MS in Data Science candidate at Columbia University (DSI Scholar) and former quantitative analyst at Banco de México.
+
+**Live site → [luisgomezordoniez.github.io/portfolio](https://luisgomezordoniez.github.io/portfolio/)**
+
+## Stack
+
+Static site — plain HTML, CSS, and vanilla JS. No build step, no dependencies.
+
+## Structure
+
+```
+portfolio/
+├── index.html      # All content and layout
+├── styles.css      # Styling and responsive behavior
+└── script.js       # Contact form logic
+```
 
 ## Run locally
-
-Open `index.html` in your browser, or use a tiny local server:
 
 ```bash
 python3 -m http.server 5173
 ```
 
-Then visit `http://localhost:5173`.
+Then open `http://localhost:5173`.
 
-## Customize
+## Contact form
 
-- Update your name, links, and content in `index.html`
-- Update styling in `styles.css`
-- Configure contact behavior in `script.js`
+Set `CONTACT_MODE` in `script.js`:
 
-## Contact form options
-
-In `script.js` set:
-
-- `CONTACT_MODE = "mailto"`: opens the visitor’s email client (works anywhere)
-- `CONTACT_MODE = "formspree"`: posts to Formspree (set `FORMSPREE_ENDPOINT`)
-- `CONTACT_MODE = "netlify"`: enables Netlify Forms (deploy to Netlify)
+| Mode | Behavior |
+|------|----------|
+| `mailto` | Opens visitor's email client — works anywhere |
+| `formspree` | Posts to Formspree — set `FORMSPREE_ENDPOINT` |
+| `netlify` | Enables Netlify Forms — deploy to Netlify |
 
 ## Deploy
 
-### GitHub Pages
+**GitHub Pages** — push to `main`, then Settings → Pages → Source: main / root.
 
-1. Create a GitHub repo and push these files.
-2. In GitHub: **Settings → Pages**.
-3. Set **Source** to your default branch and `/ (root)`.
-
-### Netlify (drag & drop)
-
-1. Go to Netlify and create a new site.
-2. Drag this folder into Netlify.
-3. If using Netlify Forms, set `CONTACT_MODE = "netlify"` in `script.js`.
-
+**Netlify** — drag the folder into [netlify.com](https://netlify.com). Set `CONTACT_MODE = "netlify"` if using Netlify Forms.
