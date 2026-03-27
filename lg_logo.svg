@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
+  <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&amp;display=swap");
+    </style>
+  </defs>
+  <text
+    x="14"
+    y="138"
+    font-family="'Petit Formal Script', cursive"
+    font-size="112"
+    fill="rgba(10, 23, 39, 0.92)"
+  >
+    LG
+  </text>
+  <path
+    d="M 10 88
+       C 50 76, 90 72, 130 74
+       C 160 76, 185 80, 210 82
+       L 210 104
+       C 185 102, 160 98, 130 96
+       C 90 94, 50 98, 10 110
+       Z"
+    fill="#185FA5"
+    opacity="0.13"
+  />
+  <path
+    d="M 10 98
+       C 50 86, 90 82, 130 84
+       C 160 86, 185 90, 210 92"
+    fill="none"
+    stroke="#185FA5"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    opacity="0.9"
+  />
+  <circle cx="16" cy="88" r="2.8" fill="#0C447C" opacity="0.72" />
+  <circle cx="26" cy="106" r="2.5" fill="#185FA5" opacity="0.65" />
+  <circle cx="36" cy="80" r="2.5" fill="#185FA5" opacity="0.68" />
+  <circle cx="46" cy="100" r="2.2" fill="#378ADD" opacity="0.62" />
+  <circle cx="54" cy="90" r="2.8" fill="#185FA5" opacity="0.7" />
+  <circle cx="64" cy="108" r="2.2" fill="#378ADD" opacity="0.6" />
+  <circle cx="72" cy="78" r="2.5" fill="#185FA5" opacity="0.65" />
+  <circle cx="84" cy="92" r="2.8" fill="#185FA5" opacity="0.7" />
+  <circle cx="94" cy="74" r="2.2" fill="#378ADD" opacity="0.62" />
+  <circle cx="104" cy="96" r="2.5" fill="#378ADD" opacity="0.65" />
+  <circle cx="114" cy="80" r="2.2" fill="#85B7EB" opacity="0.58" />
+  <circle cx="122" cy="100" r="2.5" fill="#378ADD" opacity="0.62" />
+  <circle cx="134" cy="78" r="2.5" fill="#378ADD" opacity="0.65" />
+  <circle cx="144" cy="96" r="2.2" fill="#85B7EB" opacity="0.58" />
+  <circle cx="154" cy="84" r="2.5" fill="#378ADD" opacity="0.62" />
+  <circle cx="164" cy="98" r="2" fill="#85B7EB" opacity="0.55" />
+  <circle cx="174" cy="86" r="2.2" fill="#85B7EB" opacity="0.55" />
+  <circle cx="184" cy="100" r="2" fill="#B5D4F4" opacity="0.5" />
+  <circle cx="194" cy="88" r="2" fill="#B5D4F4" opacity="0.48" />
+  <circle cx="204" cy="96" r="2" fill="#B5D4F4" opacity="0.46" />
+</svg>
